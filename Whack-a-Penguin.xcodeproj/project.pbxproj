@@ -15,6 +15,7 @@
 		6FFDB11B209E4BFF00039BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFDB11A209E4BFF00039BF7 /* Assets.xcassets */; };
 		6FFDB11E209E4BFF00039BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFDB11C209E4BFF00039BF7 /* LaunchScreen.storyboard */; };
 		6FFDB126209E4C4800039BF7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDB125209E4C4800039BF7 /* Helper.swift */; };
+		6FFDB128209E524C00039BF7 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDB127209E524C00039BF7 /* WhackSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6FFDB11D209E4BFF00039BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FFDB11F209E4BFF00039BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FFDB125209E4C4800039BF7 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		6FFDB127209E524C00039BF7 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				6FFDB10D209E4BFF00039BF7 /* AppDelegate.swift */,
+				6FFDB127209E524C00039BF7 /* WhackSlot.swift */,
 				6FFDB10F209E4BFF00039BF7 /* GameScene.sks */,
 				6FFDB113209E4BFF00039BF7 /* GameScene.swift */,
 				6FFDB115209E4BFF00039BF7 /* GameViewController.swift */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FFDB114209E4BFF00039BF7 /* GameScene.swift in Sources */,
+				6FFDB128209E524C00039BF7 /* WhackSlot.swift in Sources */,
 				6FFDB116209E4BFF00039BF7 /* GameViewController.swift in Sources */,
 				6FFDB10E209E4BFF00039BF7 /* AppDelegate.swift in Sources */,
 				6FFDB126209E4C4800039BF7 /* Helper.swift in Sources */,
@@ -293,7 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9JK6DF95Y7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Whack-a-Penguin/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,7 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9JK6DF95Y7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Whack-a-Penguin/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
