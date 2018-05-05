@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  Whack-a-Penguin
 //
-//  Created by Forrest Parker on 5/5/18.
-//  Copyright © 2018 Forrest Parker. All rights reserved.
-//
 
 import UIKit
 
